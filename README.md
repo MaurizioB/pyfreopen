@@ -18,7 +18,7 @@ There are just two methods, that work the same way:
 with `append=True` the output will be appended to the file, if not its contents
 will be overwritten; if the file does not exists, it will be created.  
 Once the output file is set, **there is no way to restore the stderr/stdout to 
-the previous output state**. You can just change the 
+the previous output state**. You can just change the output file and mode.
 
 
 Keep in mind that, again, this is a very **_basic_** and **_limited_** module,
