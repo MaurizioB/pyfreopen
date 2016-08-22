@@ -53,9 +53,9 @@ static PyMethodDef keywdarg_methods[] = {
 };
 
 PyMODINIT_FUNC
-initredirect(void) {
+initfreopen(void) {
     PyObject *m;
-    m = Py_InitModule("redirect", keywdarg_methods);
+    m = Py_InitModule("freopen", keywdarg_methods);
     if (m == NULL)
         return;
 };
